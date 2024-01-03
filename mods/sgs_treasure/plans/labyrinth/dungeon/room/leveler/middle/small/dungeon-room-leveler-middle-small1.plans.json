@@ -1,0 +1,169 @@
+{
+  "meta" : {
+    "createDate" : "Fri Mar 13 08:44:31 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 2,
+  "depth" : 5,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 65,
+      "blockName" : "ladder",
+      "metaId" : 3,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 98,
+      "name" : "stonebrick",
+      "quantity" : 32
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 16
+    },
+    {
+      "id" : 65,
+      "name" : "ladder",
+      "quantity" : 2
+    }
+  ],
+  "topConnectorCoords" : {
+    "x" : 2,
+    "y" : 1,
+    "z" : 2
+  },
+  "bottomConnectorCoords" : {
+    "x" : 2,
+    "y" : 0,
+    "z" : 2
+  },
+  "unique" : false
+}

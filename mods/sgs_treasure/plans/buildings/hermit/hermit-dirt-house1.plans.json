@@ -1,0 +1,380 @@
+{
+  "meta" : {
+  	"creator" : "gottsch",
+    "createDate" : "Sat Apr 25 18:34:42 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 4,
+  "depth" : 5,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : -1,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 2,
+      "blockName" : "grass",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 3,
+      "blockName" : "dirt",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 64,
+      "blockName" : "wooden_door",
+      "metaId" : 1,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 2,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 26,
+      "blockName" : "bed",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 26,
+      "blockName" : "bed",
+      "metaId" : 8,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 64,
+      "blockName" : "wooden_door",
+      "metaId" : 8,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "9" : {
+      "ruleId" : 9,
+      "blockId" : 50,
+      "blockName" : "torch",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        2,
+        3,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        3,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        1,
+        3,
+        3,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        5,
+        6,
+        3
+      ],
+      [
+        3,
+        0,
+        0,
+        7,
+        3
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        8,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        9,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 3,
+      "name" : "dirt",
+      "quantity" : 46
+    },
+    {
+      "id" : 2,
+      "name" : "grass",
+      "quantity" : 1
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 42
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 6
+    },
+    {
+      "id" : 64,
+      "name" : "wooden_door",
+      "quantity" : 2
+    },
+    {
+      "id" : 26,
+      "name" : "bed",
+      "quantity" : 2
+    },
+    {
+      "id" : 50,
+      "name" : "torch",
+      "quantity" : 1
+    }
+  ],
+  "treasureChests" : [
+    {
+      "id" : 0,
+      "name" : "air",
+      "coords" : {
+        "x" : 2,
+        "y" : 1,
+        "z" : 2
+      }
+    }
+  ],
+  "unique" : false
+}

@@ -1,0 +1,92 @@
+#blocks
+##chests
+tile.sgs_treasure_wooden_chest.name=Baú de Madeira
+tile.sgs_treasure_locked_wooden_chest.name=Baú de Madeira Trancado
+tile.sgs_treasure_iron_chest.name=Baú Acorrentado
+tile.sgs_treasure_pirate_chest.name=Baú de Pirata
+tile.sgs_treasure_dread_pirate_chest.name=Baú Amaldiçoado de Pirata
+tile.sgs_treasure_wishing_well_block.name=Pedra de Poço dos Desejos
+
+tile.testProxyTestBlock.name=Baú Teste
+
+#v2+ blocks
+tile.painting1x1.name=Pequeno Conjunto de Pinturas
+tile.painting2x1.name=Médio Conjunto de Pinturas
+tile.gold_brick_block.name=Tijolo do Ouro
+tile.wither_log.name=Madeira Wither
+tile.wither_log_spawner.name=Madeira Ovo Wither
+tile.wither_chest.name=Baú Wither
+tile.obsidian_chest.name=Baú de Obsidiana
+
+##markers
+tile.sgs_treasure_gravestone1.name=Lápide
+tile.sgs_treasure_gravestone2.name=Lápide de Pirata
+tile.sgs_treasure_gravestone3.name=Túmulo
+tile.sgs_treasure_skull_and_crossbones.name=Caveira e Ossos Cruzados
+tile.skeleton.name=Esqueleto
+
+# item names
+item.sgs_treasure_iron_key.name=Chave de Ferro
+item.sgs_treasure_gold_key.name=Chave de Ouro
+item.sgs_treasure_pirate_key.name=Chave Pirata
+item.sgs_treasure_skeleton_key.name=Chave Esqueleto
+item.sgs_treasure_skull_sword.name=Espada Crânio do Pirata
+item.gold_coin.name=Moeda de Ouro
+item.silver_coin.name=Moeda de Prata
+item.sgs_treasure_skull_sword.name=Espada de Crânio
+item.sgs_treasure_golden_chalice.name=Cálice Dourado
+item.sgs_treasure_golden_chalice_water.name=Cálice Dourado cheio de Água
+item.sgs_treasure_golden_chalice_lava.name=Cálice Dourado cheio de Lava
+item.sgs_treasure_golden_chalice_ambrosia.name=Cálice Dourado cheio de Ambrosia
+
+item.skeleton_item.name=Esqueleto
+item.painting_item_1x1.name=Pequeno Conjunto de Pinturas
+item.painting_item_2x1.name=Médio Conjunto de Pinturasg
+item.wither_stick_item.name=Graveto Wither
+item.wither_root_item.name=Raiz Wither
+item.wither_key.name=Chave Wither
+item.eye_patch.name=Tapa-Olho
+item.obsidian_key.name=Chave de Obsidiana 
+item.chest_breaker.name=Clava de Quebrar Baú
+
+# item-block names
+
+#itemGroup
+itemGroup.treasure_tab=Tesouro!
+
+#entity names
+
+#tool tips
+entity.SkeletonWarrior.name=Esqueleto Guerreiro
+entity.skeleton_warrior.name=Esqueleto Guerreiro
+entity.hermit.name=Eremita
+
+#containers (can have a max of 32 character in the label or name)
+##default
+display.sgs_treasure_chest=Baú
+
+##wooden
+display.sgs_treasure_wc=Baú de Madeira
+display.sgs_treasure_lwc=Baú de Madeira Trancado
+
+##iron
+display.sgs_treasure_ic=Baú Acorrentado
+
+## pirate
+display.sgs_treasure_pc=Baú de Pirata
+
+## dread pirate
+display.sgs_treasure_dpc=Baú Amaldiçoado de Pirata
+
+## wither chest
+display.sgs_treasure_wthc=Baú Wither
+
+## obsidian chest
+display.sgs_treasure_oc=Baú de Obsidiana
+
+# string resources
+tooltip.yes=Sim
+tooltip.no=Não
+tooltip.label.breakable=Quebrável: %s
+tooltip.label.key_cuts=Chave Codificada: %s
+tooltip.label.chest_breaker=Use-o para destruir permanentemente uma baú destrancado.

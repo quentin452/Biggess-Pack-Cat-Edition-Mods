@@ -1,0 +1,279 @@
+{
+  "meta" : {
+    "createDate" : "Tue Jun 09 13:02:22 EDT 2015",
+    "creator" : "gottsch",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 6,
+  "depth" : 5,
+  "width" : 3,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 48,
+      "blockName" : "mossy_cobblestone",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 48,
+      "name" : "mossy_cobblestone",
+      "quantity" : 2
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 58
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 30
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 1,
+    "y" : 4,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 1,
+    "y" : 1,
+    "z" : 4
+  },
+  "westConnectorCoords" : {
+    "x" : 0,
+    "y" : 1,
+    "z" : 2
+  },
+  "eastConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 2
+  },
+  "unique" : false
+}

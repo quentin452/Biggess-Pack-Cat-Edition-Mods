@@ -1,0 +1,793 @@
+{
+  "meta" : {
+    "createDate" : "Fri May 01 11:34:56 EDT 2015",
+    "creator" : "gottsch",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 15,
+  "depth" : 4,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : -12,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 1,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 2,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "stonebrick",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 65,
+      "blockName" : "ladder",
+      "metaId" : 5,
+      "probability" : 80,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 65,
+      "blockName" : "ladder",
+      "metaId" : 4,
+      "probability" : 80,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 3,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 44,
+      "blockName" : "stone_slab",
+      "metaId" : 5,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 44,
+      "blockName" : "stone_slab",
+      "metaId" : 13,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "9" : {
+      "ruleId" : 9,
+      "blockId" : 43,
+      "blockName" : "double_stone_slab",
+      "metaId" : 5,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "10" : {
+      "ruleId" : 10,
+      "blockId" : 109,
+      "blockName" : "stone_brick_stairs",
+      "metaId" : 3,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "11" : {
+      "ruleId" : 11,
+      "blockId" : 67,
+      "blockName" : "stone_stairs",
+      "metaId" : 2,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "12" : {
+      "ruleId" : 12,
+      "blockId" : 67,
+      "blockName" : "stone_stairs",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "13" : {
+      "ruleId" : 13,
+      "blockId" : 44,
+      "blockName" : "stone_slab",
+      "metaId" : 11,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "14" : {
+      "ruleId" : 14,
+      "blockId" : 67,
+      "blockName" : "stone_stairs",
+      "metaId" : 1,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "15" : {
+      "ruleId" : 15,
+      "blockId" : 67,
+      "blockName" : "stone_stairs",
+      "metaId" : 3,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        5,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        5,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      [
+        3,
+        2,
+        6,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        7,
+        7,
+        7,
+        2
+      ],
+      [
+        2,
+        4,
+        7,
+        5,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        4,
+        0,
+        5,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        4,
+        0,
+        5,
+        3
+      ],
+      [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        2,
+        8,
+        8,
+        8,
+        3
+      ],
+      [
+        2,
+        4,
+        8,
+        5,
+        3
+      ],
+      [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      [
+        2,
+        2,
+        3,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        4,
+        0,
+        5,
+        3
+      ],
+      [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      [
+        3,
+        7,
+        9,
+        7,
+        2
+      ],
+      [
+        3,
+        4,
+        7,
+        5,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        3,
+        2,
+        10,
+        2,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      [
+        12,
+        13,
+        13,
+        13,
+        14
+      ],
+      [
+        12,
+        13,
+        13,
+        13,
+        14
+      ],
+      [
+        12,
+        15,
+        15,
+        15,
+        15
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 67,
+      "name" : "stone_stairs",
+      "quantity" : 14
+    },
+    {
+      "id" : 98,
+      "name" : "stonebrick",
+      "quantity" : 193
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 52
+    },
+    {
+      "id" : 43,
+      "name" : "double_stone_slab",
+      "quantity" : 1
+    },
+    {
+      "id" : 109,
+      "name" : "stone_brick_stairs",
+      "quantity" : 1
+    },
+    {
+      "id" : 44,
+      "name" : "stone_slab",
+      "quantity" : 17
+    },
+    {
+      "id" : 65,
+      "name" : "ladder",
+      "quantity" : 22
+    }
+  ],
+  "topConnectorCoords" : {
+    "x" : 2,
+    "y" : 12,
+    "z" : 0
+  },
+  "bottomConnectorCoords" : {
+    "x" : 2,
+    "y" : 0,
+    "z" : 1
+  },
+  "southConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 3
+  },
+  "westConnectorCoords" : {
+    "x" : 0,
+    "y" : 2,
+    "z" : 1
+  },
+  "eastConnectorCoords" : {
+    "x" : 4,
+    "y" : 2,
+    "z" : 1
+  },
+  "unique" : false
+}

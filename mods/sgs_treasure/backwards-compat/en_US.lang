@@ -1,0 +1,90 @@
+#blocks
+##chests
+tile.sgs_treasure_wooden_chest.name=Wooden Chest
+tile.sgs_treasure_locked_wooden_chest.name=Locked Wooden Chest
+tile.sgs_treasure_iron_chest.name=Ironbound Chest
+tile.sgs_treasure_pirate_chest.name=Pirate's Chest
+tile.sgs_treasure_dread_pirate_chest.name=Dread Pirate's Chest
+tile.sgs_treasure_wishing_well_block.name=Wishing Well Stone
+
+#v2+ blocks
+tile.painting1x1.name=Small Plundered Painting
+tile.painting2x1.name=Medium Plundered Painting
+tile.gold_brick_block.name=Gold Brick
+tile.wither_log.name=Wither Log
+tile.wither_log_spawner.name=Wither Spawner Log
+tile.wither_chest.name=Wither Chest
+tile.obsidian_chest.name=Obsidian Chest
+
+##markers
+tile.sgs_treasure_gravestone1.name=Tombstone
+tile.sgs_treasure_gravestone2.name=Pirate Gravestone
+tile.sgs_treasure_gravestone3.name=Gravestone
+tile.sgs_treasure_skull_and_crossbones.name=Skull and Crossbones
+tile.skeleton.name=Skeleton
+
+# item names
+item.sgs_treasure_iron_key.name=Iron Key
+item.sgs_treasure_gold_key.name=Gold Key
+item.sgs_treasure_pirate_key.name=Pirate Key
+item.sgs_treasure_skeleton_key.name=Skeleton Key
+item.sgs_treasure_skull_sword.name=Pirate Skull Sword
+item.gold_coin.name=Gold Coin
+item.silver_coin.name=Silver Coin
+item.sgs_treasure_skull_sword.name=Skull Sword
+item.sgs_treasure_golden_chalice.name=Golden Chalice
+item.sgs_treasure_golden_chalice_water.name=Water Filled Golden Chalice
+item.sgs_treasure_golden_chalice_lava.name=Lava Filled Golden Chalice
+item.sgs_treasure_golden_chalice_ambrosia.name=Ambrosia Filled Golden Chalice
+
+item.skeleton_item.name=Skeleton
+item.painting_item_1x1.name=Small Plundered Painting
+item.painting_item_2x1.name=Medium Plundered Painting
+item.wither_stick_item.name=Wither Stick
+item.wither_root_item.name=Wither Root
+item.wither_key.name=Wither Key
+item.eye_patch.name=Eye Patch
+item.obsidian_key.name=Obsidian Key
+item.chest_breaker.name=Chest Breaker
+
+# item-block names
+
+#itemGroup
+itemGroup.treasure_tab=Treasure!
+
+#entity names
+
+#tool tips
+entity.SkeletonWarrior.name=Skeleton Warrior
+entity.skeleton_warrior.name=Skeleton Warrior
+entity.hermit.name=Hermit
+
+#containers (can have a max of 32 character in the label or name)
+##default
+display.sgs_treasure_chest=Chest
+
+##wooden
+display.sgs_treasure_wc=Wooden Chest
+display.sgs_treasure_lwc=Locked Wooden Chest
+
+##iron
+display.sgs_treasure_ic=Ironbound Chest
+
+## pirate
+display.sgs_treasure_pc=Pirate's Chest
+
+## dread pirate
+display.sgs_treasure_dpc=Dread Pirate's Chest
+
+## wither chest
+display.sgs_treasure_wthc=Wither Chest
+
+## obsidian chest
+display.sgs_treasure_oc=Obsidian Chest
+
+# string resources
+tooltip.yes=Yes
+tooltip.no=No
+tooltip.label.breakable=Breakable: %s
+tooltip.label.key_cuts=Key Cuts: %s
+tooltip.label.chest_breaker=Use this to permanently destroy an unlocked chest.

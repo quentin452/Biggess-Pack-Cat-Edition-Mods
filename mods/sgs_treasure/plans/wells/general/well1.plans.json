@@ -1,0 +1,113 @@
+{
+  "meta" : {
+    "name" : "Simple Wishing Well",
+    "creator" : "gottsch",
+    "createDate" : "Thu Oct 23 18:12:43 EDT 2014",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "comments" : "See plans-instructions.txt for details on how to use a plans.json file.",
+    "version" : "1.0"
+  },
+  "height" : 2,
+  "depth" : 4,
+  "width" : 4,
+  "preservePlansAir" : true,
+  "substituteWithAir" : [ ],
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : -1,
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : null
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : -1,
+      "blockName" : "sgs_treasure:wishing_well_block",
+      "metaId" : 0,
+      "probability" : 100,
+      "spawns" : null
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 9,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : null
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  ],
+  "topConnectorCoords" : null,
+  "treasureChestCoords" : null,
+  "spawnerCoords" : [ ],
+  "unique" : false
+}

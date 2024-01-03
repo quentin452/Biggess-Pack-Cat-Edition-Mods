@@ -1,0 +1,490 @@
+{
+  "meta" : {
+    "createDate" : "Fri Mar 13 22:21:05 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 5,
+  "depth" : 9,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 8,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 44,
+      "blockName" : "stone_slab",
+      "metaId" : 5,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 126,
+      "blockName" : "wooden_slab",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        4,
+        3,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        5,
+        5,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 98,
+      "name" : "stonebrick",
+      "quantity" : 8
+    },
+    {
+      "id" : 126,
+      "name" : "wooden_slab",
+      "quantity" : 21
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 156
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 24
+    },
+    {
+      "id" : 44,
+      "name" : "stone_slab",
+      "quantity" : 2
+    },
+    {
+      "id" : 17,
+      "name" : "log",
+      "quantity" : 14
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 2,
+    "y" : 4,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 2,
+    "y" : 4,
+    "z" : 8
+  },
+  "unique" : false
+}

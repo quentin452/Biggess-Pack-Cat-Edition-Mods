@@ -1,0 +1,2923 @@
+{
+  "sgs_treasure:tile.sgs_treasure_wooden_chest" : {
+    "id" : "0",
+    "name" : "sgs_treasure:tile.sgs_treasure_wooden_chest",
+    "description" : "Wooden Chest",
+    "items" : [
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_sword",
+        "probability" : 2,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 2,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_nugget",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:wool",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bread",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_pickaxe",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_shovel",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_axe",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_hoe",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:fishing_rod",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+      {
+        "id" : -1,
+        "name" : "minecraft:arrow",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather_helmet",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 2,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dirt",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+  "sgs_treasure:tile.sgs_treasure_locked_wooden_chest" : {
+    "id" : "0",
+    "name" : "sgs_treasure:tile.sgs_treasure_locked_wooden_chest",
+    "description" : "Locked Wooden Chest",
+    "items" : [
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 4,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:stone_sword",
+        "probability" : 4,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 4,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : 0,
+        "name" : "minecraft:emerald",
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : 0,
+        "name" : "minecraft:dye",
+        "meta" : 4,
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : 0,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_nugget",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 2,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:wool",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_ingot",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 2,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:lead",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bread",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_hoe",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:arrow",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 5,
+        "maxQuantity" : 30,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather_chestplate",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather_leggings",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dirt",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+	/////////// iron chest
+  "sgs_treasure:tile.sgs_treasure_iron_chest" : {
+    "name" : "sgs_treasure:tile.sgs_treasure_iron_chest",
+    "description" : "Ironbound Chest",
+    "items" : [
+   	{
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item2x1",
+        "probability" : 4,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 8,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      
+      {
+        "id" : 267,
+        "name" : "minecraft:iron_sword",
+        "probability" : 6,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 6,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 1
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:emerald",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dye",
+        "meta" : 4,
+        "probability" : 30,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:golden_apple",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:clock",
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:compass",
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:potatoes",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+ 	{
+        "id" : -1,
+        "name" : "minecraft:carrots",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+	{
+        "id" : -1,
+        "name" : "minecraft:writable_book",
+        "probability" : 25,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      ///////// keys //////////
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_pirate_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+      /////// better goods ///////
+      {
+        "id" : -1,
+        "name" : "minecraft:saddle",
+        "probability" : 35,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_nugget",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 3,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_ingot",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+       {
+        "id" : -1,
+        "name" : "minecraft:iron_ingot",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 5,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },  
+       {
+        "id" : -1,
+        "name" : "minecraft:tnt",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:obsidian",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:redstone_ore",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:glowstone_dust",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 3,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:melon",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	//// weapons & armour
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:arrow",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 30,
+        "maxQuantity" : 50,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_horse_armor",
+        "probability" : 25,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:iron_chestplate",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_leggings",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_sword",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather_helmet",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather_boots",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	//// tools 
+	  {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:milk_bucket",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// lesser goods
+       {
+        "id" : -1,
+        "name" : "minecraft:paper",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:wool",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 10,
+        "maxQuantity" : 30,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bread",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dirt",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+  //// pirate chest
+  "sgs_treasure:tile.sgs_treasure_pirate_chest" : {
+    "name" : "sgs_treasure:tile.sgs_treasure_pirate_chest",
+    "description" : "Pirate Chest",
+    "items" : [
+   	{
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item2x1",
+        "probability" : 6,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_coin",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_silver_coin",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:eye_patch",
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_sword",
+        "probability" : 8,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 8,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },     
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_chestplate",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_leggings",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_boots",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_helmet",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },  
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanted_book",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:emerald",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dye",
+        "meta" : 4,
+        "probability" : 40,
+        "weight" : 10,
+        "minQuantity" : 5,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:golden_apple",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:clock",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:compass",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:potatoes",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+ 	{
+        "id" : -1,
+        "name" : "minecraft:carrots",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+	{
+        "id" : -1,
+        "name" : "minecraft:writable_book",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanting_table",
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// mob heads
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 0,
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 1,
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 2,
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 3,
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 4,
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:potion",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:anvil",
+        "probability" : 5,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      ///////// keys //////////
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_pirate_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skeleton_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }, 
+      //// enchanted tools ////
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },{
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      /////// better goods ///////
+      {
+        "id" : -1,
+        "name" : "minecraft:saddle",
+        "probability" : 35,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_nugget",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 5,
+        "maxQuantity" : 25,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_ingot",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+       {
+        "id" : -1,
+        "name" : "minecraft:iron_ingot",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 5,
+        "maxQuantity" : 25,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },  
+       {
+        "id" : -1,
+        "name" : "minecraft:tnt",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:obsidian",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:redstone_ore",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:glowstone_dust",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 3,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:melon",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	//// weapons & armour /////
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:arrow",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 45,
+        "maxQuantity" : 64,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:golden_horse_armor",
+        "probability" : 15,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_horse_armor",
+        "probability" : 25,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:diamond_chestplate",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_leggings",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_sword",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_helmet",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_boots",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      	{
+        "id" : -1,
+        "name" : "minecraft:iron_chestplate",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_leggings",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_helmet",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_boots",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	//// tools /////
+	  {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:milk_bucket",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// lesser goods /////
+       {
+        "id" : -1,
+        "name" : "minecraft:paper",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:wool",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 10,
+        "maxQuantity" : 30,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bread",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dirt",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 100,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+  //// dread pirate chest /////
+  "sgs_treasure:tile.sgs_treasure_dread_pirate_chest" : {
+    "name" : "sgs_treasure:tile.sgs_treasure_dread_pirate_chest",
+    "description" : "Dread Pirate Chest",
+    "items" : [
+     {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_golden_chalice",
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skull_sword",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }, 
+   	{
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item2x1",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 15,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_coin",
+        "probability" : 50,
+        "weight" : 0,
+        "minQuantity" : 2,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_silver_coin",
+        "probability" : 50,
+        "weight" : 0,
+        "minQuantity" : 2,
+        "maxQuantity" : 16,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:eye_patch",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_sword",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },     
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_chestplate",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_leggings",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_boots",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_helmet",
+        "probability" : 10,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },  
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanted_book",
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:spawn_egg",
+        "meta":  120,
+        "probability" : 50,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+            //// mob heads
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 0,
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 1,
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 2,
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 3,
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 4,
+        "probability" : 5,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:potion",
+        "probability" : 25,
+        "weight" : 0,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:emerald",
+        "probability" : 15,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:dye",
+        "meta" : 4,
+        "probability" : 60,
+        "weight" : 10,
+        "minQuantity" : 5,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:golden_apple",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:clock",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:compass",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:potatoes",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+ 	{
+        "id" : -1,
+        "name" : "minecraft:carrots",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+	{
+        "id" : -1,
+        "name" : "minecraft:writable_book",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanting_table",
+        "probability" : 10,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:anvil",
+        "probability" : 10,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      ///////// keys //////////
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_pirate_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skeleton_key",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }, 
+      //// enchanted tools ////
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },{
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 25,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 2
+      },
+	//// weapons & armour /////
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:arrow",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 45,
+        "maxQuantity" : 100,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_horse_armor",
+        "probability" : 15,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:golden_horse_armor",
+        "probability" : 25,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_horse_armor",
+        "probability" : 35,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	{
+        "id" : -1,
+        "name" : "minecraft:diamond_chestplate",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_leggings",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_sword",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_helmet",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_boots",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      	{
+        "id" : -1,
+        "name" : "minecraft:iron_chestplate",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_leggings",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_helmet",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_boots",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+            /////// better goods ///////
+      {
+        "id" : -1,
+        "name" : "minecraft:saddle",
+        "probability" : 35,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_nugget",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 10,
+        "maxQuantity" : 45,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:gold_ingot",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+       {
+        "id" : -1,
+        "name" : "minecraft:tnt",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:obsidian",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:redstone_ore",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:glowstone_dust",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 3,
+        "maxQuantity" : 15,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:melon",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	//// tools /////
+		  {
+        "id" : -1,
+        "name" : "minecraft:diamond_pickaxe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_shovel",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_axe",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+	  {
+        "id" : -1,
+        "name" : "minecraft:iron_pickaxe",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_shovel",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:iron_axe",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:milk_bucket",
+        "probability" : 100,
+        "weight" : 50,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// lesser goods /////
+       {
+        "id" : -1,
+        "name" : "minecraft:paper",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:wool",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 0,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 45,
+        "maxQuantity" : 64,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      // extra torches
+      {
+        "id" : -1,
+        "name" : "minecraft:torch",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 0,
+        "maxQuantity" : 64,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bread",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 0,
+        "maxQuantity" : 6,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:leather",
+        "probability" : 100,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+  "sgs_treasure:wither_chest" : {
+    "name" : "sgs_treasure:wither_chest",
+    "description" : "Wither Chest",
+    "items" : [
+   	{
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item2x1",
+        "probability" : 15,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanted_book",
+        "probability" : 100,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 20,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:potion",
+        "probability" : 65,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 20,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_coin",
+        "probability" : 50,
+        "weight" : 10,
+        "minQuantity" : 2,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_silver_coin",
+        "probability" : 50,
+        "weight" : 10,
+        "minQuantity" : 2,
+        "maxQuantity" : 16,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanting_table",
+        "probability" : 20,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_pirate_key",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 4,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skeleton_key",
+        "probability" : 100,
+        "weight" : 20,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// bones - for effect ////
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bone",
+        "probability" : 100,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  },
+    "sgs_treasure:obsidian_chest" : {
+    "name" : "sgs_treasure:obsidian_chest",
+    "description" : "Obsidian Chest",
+    "items" : [
+     {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_golden_chalice",
+        "probability" : 8,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skull_sword",
+        "probability" : 15,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+         	{
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item2x1",
+        "probability" : 15,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:painting_item1x1",
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+            {
+        "id" : -1,
+        "name" : "minecraft:diamond_sword",
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 4
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:bow",
+        "probability" : 20,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:enchanted_book",
+        "probability" : 30,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:potion",
+        "probability" : 25,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },      
+      {
+        "id" : -1,
+        "name" : "minecraft:spawn_egg",
+        "meta":  120,
+        "probability" : 50,
+        "weight" : 0,
+        "minQuantity" : 1,
+        "maxQuantity" : 2,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_coin",
+        "probability" : 100,
+        "weight" : 0,
+        "minQuantity" : 4,
+        "maxQuantity" : 16,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_silver_coin",
+        "probability" : 100,
+        "weight" : 0,
+        "minQuantity" : 4,
+        "maxQuantity" : 24,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      //// better rares
+      {
+        "name" : "minecraft:ender_pearl",
+        "probability" : 20,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:ender_eye",
+        "probability" : 15,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 3
+      },
+      {
+        "name" : "minecraft:ender_chest",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 1
+      },
+      {
+        "name" : "minecraft:blaze_rod",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:blaze_powder",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:ghast_tear",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:magma_cream",
+        "probability" : 15,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 10
+      },
+      {
+        "name" : "minecraft:nether_star",
+        "probability" : 5,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 1
+      },
+      {
+        "name" : "minecraft:beacon",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 1
+      },
+      {
+        "name" : "minecraft:experience_bottle",
+        "probability" : 10,
+        "weight" : 5,
+        "minQuantity" : 0,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:golden_apple",
+        "probability" : 35,
+        "weight" : 5,
+        "minQuantity" : 1,
+        "maxQuantity" : 2
+      },
+      //// elements and element blocks ////
+      {
+        "name" : "minecraft:iron_ingot",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 15,
+        "maxQuantity" : 45
+      },
+      {
+        "name" : "minecraft:gold_ingot",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 4,
+        "maxQuantity" : 20
+      },
+      {
+        "name" : "minecraft:iron_block",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:gold_block",
+        "probability" : 100,
+        "weight" : 10,
+        "minQuantity" : 0,
+        "maxQuantity" : 3
+      },
+      {
+        "name" : "minecraft:diamond",
+        "probability" : 25,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 8
+      },
+      {
+        "name" : "minecraft:emerald",
+        "probability" : 25,
+        "weight" : 20,
+        "minQuantity" : 2,
+        "maxQuantity" : 6
+      },
+      {
+        "name" : "minecraft:diamond_block",
+        "probability" : 25,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 3
+      },
+      {
+        "name" : "minecraft:emerald_block",
+        "probability" : 15,
+        "weight" : 20,
+        "minQuantity" : 0,
+        "maxQuantity" : 1
+      },
+      //// enchanted weapons / armour ////
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_chestplate",
+        "probability" : 15,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_leggings",
+        "probability" : 15,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_boots",
+        "probability" : 15,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:diamond_helmet",
+        "probability" : 15,
+        "weight" : 30,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 1,
+        "maxEnchants" : 3
+      }, 
+      //// lesser goods
+      {
+        "name" : "minecraft:fireworks",
+        "probability" : 10,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 5
+      },
+      {
+        "name" : "minecraft:name_tag",
+        "probability" : 10,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 2
+      },
+            ///////// keys //////////
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_iron_key",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 10,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_gold_key",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 8,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_pirate_key",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 5,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:item.sgs_treasure_skeleton_key",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 1,
+        "maxQuantity" : 3,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }, 
+      {
+        "id" : -1,
+        "name" : "sgs_treasure:wither_key",
+        "probability" : 100,
+        "weight" : 40,
+        "minQuantity" : 0,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },       
+      //// mob heads - heaviest, want other stuff first
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 0,
+        "probability" : 5,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 1,
+        "probability" : 5,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 2,
+        "probability" : 5,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 3,
+        "probability" : 5,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      },
+      {
+        "id" : -1,
+        "name" : "minecraft:skull",
+        "meta" : 4,
+        "probability" : 5,
+        "weight" : 60,
+        "minQuantity" : 1,
+        "maxQuantity" : 1,
+        "minEnchants" : 0,
+        "maxEnchants" : 0
+      }
+    ]
+  }
+}

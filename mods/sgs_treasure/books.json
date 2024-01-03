@@ -1,0 +1,62 @@
+[
+	{
+		"title":"Blockbeard: Scourge of the Blocky Seas",
+		"author":"Neevel, First Mate",
+		"pages":[
+			"Log 1: Capt'n Mann hailed us and pulled along side our side. He asked Capt'n to meet him Maracaibo. Wants to do some business.",
+			"Log 2: Arrived in Maracaibo. We restocked our supplies and visited the gambling houses while we wait for Capt'n Mann.",
+			"Log 3: Capt'n met up with Capt'n Mann about some lost chalice. He paid Capt'n Mann a large sum of coin.",
+			"Log 4: Today, we set sail for Cartagena. Capt'n ordered full sail. Something urgent going on.",
+			"Log 5: Captured a sloop today. But it wasn't 'The Horizon' that Capt'n was looking for. Still sailing for Cartagena with upmost urgency.",
+			"Log 6: Arrived at Cartagena without seeing 'The Horizon'. Ran into Capt'n Stackham who was bragging about the golden booty they just scored. Capt'n and him had words.",
+			"Log 7: Following Capt'n Stackham. Capt'n says he has the chalice. The men are all preparing for battle... loading muskets, readying the cannons.",
+			"Log 8: Capt'n Stackham is going headlong into a raging storm. Capt'n commands us to follow. Time to batten down the hatches.",
+			"Log 9: I fear this will be my last entry. This storm is unnatural.  We lost Cap'n Stackham in the storm.  Now a black ship with black sails is closing in on us. Capt'n needs me on deck..."
+		]
+	},
+	{
+		"title":"Captain Stackham's Journal",
+		"author":"Captain Steve Stackham",
+		"pages":[
+			"Log 1: We capture a sloop today bound for Cartagena, filled with little gold but lots of spice, and some fine tableware.  We kept the ship, bringing our total to five. Left the crew on some isle.",
+			"Log 2: Arrived at Cartagena.  Sold the spice and lined our pockets with gold.  Let the men have a leave to visit the local establishments.",
+			"Log 3: Departed Cartagena, with full bellies and cloudy heads.  On our way out, we ran into Blockbeard and some of his men.  Uncouth barbarians.",
+			"Log 4: Blockbeard is following us.  Don't know what he's up to, but it's never good.  Ordered full sail.  Changed course for Port Royal.",
+			"Log 5: Blockbeard is right on our tail.  Luckily a storm is blowing and he can't broadside us.  We'll lose him in the storm - hopefully we will survive to see the other side.",
+			"Log 6: Wicked storm this is.  Lost three men to the seas.  We lost Blockbeard somewhere. Can't see anything in the soup.",
+			"Log 7: Another ship appeared close to our starboard.  It's not Blockbeard.  Not going to take any chances. Fire all cannon!",
+			"Log 8: We took several cannon shot through our sides. Main mast is snapped in half. Things are not looking good for us.",
+			"Log 9: We're going down fast.  Know that Captain Steve Stackham stayed with his ship! ..."
+		]
+	},
+	{
+		"title":"Captain Edder Mann's Journal",
+		"author":"Nimb, Journal Keeper",
+		"pages":[
+			"Day 1: Plundered Caracas today. Caught them unawares in the dead of night.Lots of booty, ale, and food stuffs, but Captain Mann is still furious. The sloop 'The Horizon' left port a day ago.",
+			"Day 2: Sank a frigate outside of Puerto Cabello. Some gent from the King's Navy thought they could capture us - ha! Made port in Puerto Cabello.",
+			"Day 3: Spotted Sinister Steve's color's in a battle with a war galleon. Captain wouldn't help - had more important matters to attend to.",
+			"Day 4: Made port in Maracaibo. Made inquires about 'The Horizon'. It left a day ago. It is bound for Cartagena. Too fast for our ships. Captain met with Blockbeard.  Traded him the information for a lot of coin.",
+			"Day 5: This morning we set sail for Port Royal. Too many of the King's ships in the waters here.",
+			"Day 6: Big storm brewing to the east. The men believe the Ghost Captain Herobrine sails at the center of such storms. Captain Mann doesn't believe is such nonsense. We will try to beat the storm to Port Royal.",
+			"Day 7: The storm is almost upon us. Heading due west. Throwing everything overboard to lightened the load.",
+			"Day 8: The wind is howling and the waves smash against our hull. But Captain Mann believes he still heard cannon fire. Dark tidings.",
+			"Day 9: We survived the storm, but not without a cost. All our cargo is gone. Five men washed overboard. Debris everwhere. Something terrible happend in that storm..."
+		]
+	},
+	{
+		"title":"I AM HEROBRINE",
+		"author":"Herobrine",
+		"pages":[
+			"Log 1: I AM HEROBRINE - ALL MUST FALL. I WILL CONQUER ALL. I WILL... I WILL ...",
+			"Log 2: ALL YOUR BASE BELONG TO US.  I AM HEROBRINE.  THE TIME HAS COME ...",
+			"Log 3: THE CHALICE!  WHERE IS THE CHALLLLLICE?  I FEEL IT.  IT IS NEAR.  IT WILL BE MINE ...",
+			"Log 4: PIRATES COME AND PIRATES GO.  I AM HEROBRINE.  I AM THE FOE ...",
+			"Log 5: BLOCKBEARD, CAPTAIN MANN, OR CALICO CUBE.  IT MATTERS NOT.  I AM HEROBRINE.  I COME FOR YOU ALL ...",
+			"Log 6: I AM THE THUNDER. I AM THE GALE. I WILL HAVE THE CHACILE... I WILL NOT FAIL...",
+			"Log 7: ALAS. PIRATES. FEEL MY WRATH. FEEL THE WATERS BENEATH YOUR FEET. IT WILL BE YOUR ETERNAL HOME...",
+			"Log 8: BLOCKBEARD IS MINE. STACKHAM IS MINE. WHERE IS MANN. YOU CAN NOT ESCAPE ME...",
+			"Log 9: CHALICE... WHERE IS THE CHALICE... I WILL HAVE IT. MY SEARCH CONTINUES. MY STORM CONTINUES..."
+		] 
+	}
+]

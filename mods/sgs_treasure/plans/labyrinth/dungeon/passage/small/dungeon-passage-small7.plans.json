@@ -1,0 +1,349 @@
+{
+  "meta" : {
+    "createDate" : "Mon Jun 01 14:34:09 EDT 2015",
+    "creator" : "gottsch",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 5,
+  "depth" : 4,
+  "width" : 7,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 2,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 139,
+      "blockName" : "cobblestone_wall",
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 98,
+      "name" : "stonebrick",
+      "quantity" : 28
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 95
+    },
+    {
+      "id" : 139,
+      "name" : "cobblestone_wall",
+      "quantity" : 4
+    },
+    {
+      "id" : 17,
+      "name" : "log",
+      "quantity" : 13
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 3,
+    "y" : 2,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 3,
+    "y" : 2,
+    "z" : 3
+  },
+  "unique" : false
+}

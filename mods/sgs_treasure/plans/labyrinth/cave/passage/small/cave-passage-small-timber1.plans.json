@@ -1,0 +1,366 @@
+{
+  "meta" : {
+	"creator" : "gottsch",
+    "createDate" : "Wed Apr 29 16:10:45 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 5,
+  "depth" : 4,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 48,
+      "blockName" : "mossy_cobblestone",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 1,
+      "blockName" : "stone",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 30,
+      "blockName" : "web",
+      "metaId" : 0,
+      "probability" : 10,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 35,
+      "blockName" : "wool",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteName" : "sandstone",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : true,
+      "worldBlockName" : "sand",
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        4,
+        0,
+        0,
+        3
+      ],
+      [
+        5,
+        0,
+        0,
+        4,
+        5
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        4,
+        0,
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 48,
+      "name" : "mossy_cobblestone",
+      "quantity" : 12
+    },
+    {
+      "id" : 1,
+      "name" : "stone",
+      "quantity" : 12
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 35
+    },
+    {
+      "id" : 30,
+      "name" : "web",
+      "quantity" : 4
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 8
+    },
+    {
+      "id" : 35,
+      "name" : "wool",
+      "quantity" : 20
+    },
+    {
+      "id" : 17,
+      "name" : "log",
+      "quantity" : 9
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 3
+  },
+  "westConnectorCoords" : {
+    "x" : 0,
+    "y" : 2,
+    "z" : 2
+  },
+  "eastConnectorCoords" : {
+    "x" : 4,
+    "y" : 2,
+    "z" : 2
+  },
+  "unique" : false
+}

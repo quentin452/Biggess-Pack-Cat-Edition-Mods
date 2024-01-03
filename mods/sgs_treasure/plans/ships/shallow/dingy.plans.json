@@ -1,0 +1,480 @@
+{
+  "meta" : {
+    "name" : "",
+    "creator" : "mason",
+    "createDate" : "Thu Nov 27 12:27:54 EST 2014",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "comments" : "",
+    "version" : "2.0"
+  },
+  "height" : 6,
+  "depth" : 5,
+  "width" : 9,
+  "preservePlansAir" : false,
+  "substituteWithAir" : [ ],
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 164,
+      "blockName" : "",
+      "metaId" : 6,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 164,
+      "blockName" : "",
+      "metaId" : 4,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 5,
+      "blockName" : "",
+      "metaId" : 5,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 164,
+      "blockName" : "",
+      "metaId" : 7,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 164,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 85,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 54,
+      "blockName" : "",
+      "metaId" : 5,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 52,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : ["Squid"]
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        6,
+        6,
+        7,
+        0,
+        0,
+        0,
+        8,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "topConnectorCoords" : null,
+  "bottomConnectorCoords" : null,
+  "northConnectorCoords" : null,
+  "southConnectorCoords" : null,
+  "westConnectorCoords" : null,
+  "eastConnectorCoords" : null,
+  "treasureChestCoords" : {
+    "x" : 2,
+    "y" : 1,
+    "z" : 2
+  },
+  "spawnerCoords" : [
+    {
+      "x" : 6,
+      "y" : 1,
+      "z" : 2
+    }
+  ],
+  "unique" : false
+}

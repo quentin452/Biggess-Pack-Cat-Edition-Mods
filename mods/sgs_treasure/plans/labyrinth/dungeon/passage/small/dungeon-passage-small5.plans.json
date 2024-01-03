@@ -1,0 +1,283 @@
+{
+  "meta" : {
+    "createDate" : "Fri Mar 13 08:41:57 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 5,
+  "depth" : 3,
+  "width" : 7,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 2,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "stonebrick",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 98,
+      "blockName" : "stonebrick",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 97,
+      "blockName" : "monster_egg",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 97,
+      "blockName" : "monster_egg",
+      "metaId" : 2,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        4,
+        2,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3
+      ],
+      [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 98,
+      "name" : "stonebrick",
+      "quantity" : 44
+    },
+    {
+      "id" : 97,
+      "name" : "monster_egg",
+      "quantity" : 2
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 33
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 26
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 3,
+    "y" : 2,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 3,
+    "y" : 2,
+    "z" : 2
+  },
+  "unique" : false
+}

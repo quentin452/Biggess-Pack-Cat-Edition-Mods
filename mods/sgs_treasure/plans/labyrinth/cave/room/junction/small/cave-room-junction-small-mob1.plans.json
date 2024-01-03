@@ -1,0 +1,626 @@
+{
+  "meta" : {
+  	"creator" : "gottsch",
+    "createDate" : "Tue Mar 03 08:02:36 EST 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 5,
+  "depth" : 8,
+  "width" : 8,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteMeta" : 0,
+      "substituteName" : "null_bock",
+      "inventoryId" : -1,
+      "requiresSupport" : false
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 48,
+      "blockName" : "mossy_cobblestone",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 3,
+      "blockName" : "dirt",
+      "metaId" : 0,
+      "probability" : 50,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 30,
+      "blockName" : "web",
+      "metaId" : 0,
+      "probability" : 10,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 31,
+      "blockName" : "tallgrass",
+      "metaId" : 1,
+      "probability" : 50,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 4,
+      "blockName" : "cobblestone",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 52,
+      "blockName" : "mob_spawner",
+      "metaId" : 0,
+      "probability" : 50,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "spawns" : ["Zombie", "Skeleton", "Spider"]
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 1,
+      "blockName" : "stone",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        2,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        2
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        5,
+        0,
+        6,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        6,
+        0,
+        5,
+        0,
+        1
+      ],
+      [
+        1,
+        7,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1
+      ],
+      [
+        1,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        4,
+        0,
+        0,
+        0,
+        6,
+        5,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        0,
+        0,
+        4,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        8,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        0,
+        0,
+        8,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        8,
+        8,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 3,
+      "name" : "dirt",
+      "quantity" : 5
+    },
+    {
+      "id" : 48,
+      "name" : "mossy_cobblestone",
+      "quantity" : 29
+    },
+    {
+      "id" : 1,
+      "name" : "stone",
+      "quantity" : 5
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 80
+    },
+    {
+      "id" : 30,
+      "name" : "web",
+      "quantity" : 6
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 187
+    },
+    {
+      "id" : 41,
+      "name" : "gold_block",
+      "quantity" : 1
+    },
+    {
+      "id" : 4,
+      "name" : "cobblestone",
+      "quantity" : 3
+    },
+    {
+      "id" : 31,
+      "name" : "tallgrass",
+      "quantity" : 4
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 4,
+    "y" : 2,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 7
+  },
+  "westConnectorCoords" : {
+    "x" : 0,
+    "y" : 2,
+    "z" : 2
+  },
+  "eastConnectorCoords" : {
+    "x" : 7,
+    "y" : 2,
+    "z" : 6
+  },
+  "unique" : false
+}

@@ -1,0 +1,159 @@
+CHANGELOG
+============
+
+Version 3.0.8 (Nov 8/2016)
+-----------------------------------
+-Fixed 3.0.7 Newer Version Updater bug. The updater keeps notifying user that there is a newer version even if you had the latest version.
+
+Version 3.0.7 (Oct 21/2016)
+-----------------------------------
+-Changed method for registering custom mobs (Skeleton Warrior and Hermit).
+-Added custom spawn eggs textures for mobs.
+-Compile for Forge version 1.7.10-10.13.4.1558
+
+Version 3.0.6 (Jan 28/2016)
+-----------------------------------
+-Fixed bug where Hermit Generation saved data wasn't being saved to the correct NBT compound.
+ 
+Version 3.0.5 (Dec 30/2015)
+----------------------
+-Changed recipe for Chest Breaker as to not override iron shovel recipe
+-Fixed Wither Chest breakability that allowed one to get around the wither effect when not using a Wither key.
+   Wither Chests are not breakable (ie. breaking the chest will return the chest as an item) unless using a Chest Breaker.
+-Fixed bug with when breakBlock() is called on a chest that doesn't have a corresponding TileEntity.
+
+Version 3.0.4
+----------------------
+-Fixed WorldSavedData bug that was introduced in v3.0.3
+-Fixed the Client-side error when running on a dedicated server bug.
+-Added 2 new Cave junction rooms.
+
+Version 3.0
+----------------------
+***************************************************
+* NOT compatible with previous version worlds by default.
+* You will lose blocks/items if you play on an older world.
+* However, if you update the ids.config, and *.lang file(s) you can
+* play with older worlds.
+***************************************************
+
+-Added Obsidian Chests. They require unique Obsidian Keys to unlock.
+-Added Obsidian Keys. They are unique keys that will only fit one Obsidian Chest. These key are NOT craftable.
+-Added Labyrinth System - Procedurally generated Caves and Dungeons.
+-Added Hermits.  Hermits can trade valuable information where chests and other items are located.
+-Added ability to configure what the Hermit's dialog is.
+-Added ability to configure what items are required to trade with the Hermit.
+-Added ability to configure what loots is in each Treasure Chest using a JSON file.  Any mod item can be added.
+-Added ability to turn off key recipes.
+-Added ability to toggle whether a key breaks or not when failing to open a chest.
+-Added display status to Chests.  Right-clicking on a chest will display it's current state (locked/unlocked) and what key is required to open. 
+-Added Chest Breaker, a convenience tool which allows you to destroy unlocked Treasure Chests.
+-One Time Proximity Spawners - these occur in labyrinths.  When the player is X blocks away, they will spawn a mob(s) and then remove itself.
+-Updated the chest/well/ship/wither tree/hermit/labyrinth generator system, giving the ability to control the probability a lot better.
+	 The minChunksPerX property controls how many chuncks are generated before a chests etc are generated.  The xxxGenProbability determines the likleyhood of the chests etc
+	 actually generating.  If the chests etc does not meet the probability, then it will be another minChunksPerX until the chest will attempt to generate again.
+-Re-balanced the chests etc. generation properties (see above).
+-Added some language support: French, Italian, Brazilian, Turkish.
+-Added Update Checker.
+-All Config files are now located under %appdata%/.minecraft/config/sgs_treasure
+-Added many many configurable properties.
+-Various bug fixes and updates
+-Updated some graphics
+
+-Upgraded to Plans API v3.0
+	-Added probability properties, that can use a substitute if probability fails.
+	 -Added worldConditionBlock - a property that will check if the world block mets a certain criteria, if so substitutes for a block.
+	 -Added vanilla chest inventories.
+	-Added the ability to turn off all spawners.
+	-Switched to be name-based instead of id-based.
+	-Add other properties
+	
+Version 2.5-BETA
+----------------------
+Why BETA? - because included are some untested changes meant for version 3.0.
+-Made is so that no other mod can by-pass Treasure Chest locks (ex. BuildCraft, Ender IO, ExtraUtilities, Tinker's Construct).  This replaces the previous
+	change that only affected those listed mods. (done by not extending TileEntityChest and not implementing IInventory).
+-Removed the checks against specific mods and the relevent config properties.
+-Vanilla chests and Treasure Chests now work together without issue - no rendering issues, can place beside each other.
+-Fixed the BiomeDictionary error.
+-Using Plans v3.0
+
+Version 2.4
+-----------------
+-Added checks when playing with BuildCraft, Ender IO, and ExtraUtilities, to behave the same as with Tinker's Construct (that is, you can't place a Treasure
+	Chest beside a Block from these mods that gains access to the chest and vice versa).
+-Added config properties to enable\disable these checks.
+-Fixed Wither Spawner Log from dropping a Wither Spawner Log item, but will drop a regular Wither Log.
+-Added a config property for Wither Branches and Wither Roots to control the % chance that they will drop themselves as an item.  Changed the default
+	from 25% to 35%.
+
+Version 2.3
+-----------------
+-Added custom TreasureBiomeDictionary class.
+-Added custom DEEP_OCEAN BiomeDictionary.Type.
+-Updated all chest, ship, well, wither tree, and building generation to use BiomeDictionary and TreasureBiomeDictionary instead of interrogating the biome name.
+-Added configurable (config file) white/black lists for biome Types for chests, ships, wells, wither tree, and buildings.
+-Re-organized config file in more logical categories, hopefully making it more user-friendly and easier to understand configuration settings.
+-Added many comments to config categories and properties.
+-Fixed PaintingPlacholderTileEntity is missing a mapping error.
+-Added a medieval townhouse Plan to the forest buildings.
+
+Version 2.2
+-----------------
+-Fixed Wither Spawner Log name to display correctly.
+-When playing with Tinker's Construct mod, if a Tinker's Crafting Station (or vanilla chest) is placed beside a Treasure chest, 
+	the Treasure chest will "pop/break" to item form with all items intact.  By default, that means it will be locked again.  The opposite is also true - 
+	if a Treasure chest is placed beside a Crafting Station, the chest will "pop/break".
+-Added a config property (true/false) to test for Tinker's Construct, so Treasure mod will work even if you don't have Tinker's Construct mod.
+-Added a series of white/black list config properties for which Biome Types a Treasure Ship can generate in.
+
+Version 2.1.1
+-----------------
+-Actually Fixed SkeletonPlaceholder is missing a mapping error this time.
+
+Version 2.1
+---------------
+-Fixed SkeletonPlaceholder having a taller bounding box than Skeleton.
+-Fixed SkeletonPlaceholder is missing a mapping error.
+-Fixed Wither Tree Generation error.
+-Fixed Skeleton Warrior not having its name set.
+-Added 2 new ships from the Plans contest. 1 large for Deep Ocean and 1 medium for Ocean.
+
+Version 2.0
+---------------
+-Uses Plans v2.0 which enables structure rotation, so generated chambers, wells, ships, etc no longer always face the same direction.
+-Added Wither Trees
+-Added Wither Branches, Wither Roots, Wither Key, and Wither Chest
+-Added new collectible Art - 1 collection of Small 1x1 Paintings, 2 collections of 2x1 Paintings
+-Added Eye Patch
+-Added Skeleton Warriors
+-Added Skeleton Grave Marker
+-Added Gold Brick/Pavers
+-Added 3 new Surface Buildings - 1 Small Cabin, 2 Medium Cabins
+-Added 3 new types of Shafts
+-Added new Giant Treasure Ship
+-Added new Small Dingy Ship
+-Added new Ores Mines
+-Re-organized config, moving all resources/external files under the resources category
+-Tweaked spawn rates of Treasure Chests, Wells, Ships (increase the rarity)
+-Pre-loaded all Plans files for faster processing.
+-Fixed inefficient/bad resource allocation in GenericTileEntityRenderer.
+-Reworked xxxGenerator class inheritence
+
+Version 1.2
+---------------
+-Skull and Crossbones Block - added 5% chance to drop Skull head, and 5% chance to drop bones.  (since 1.7.2 - skeleton heads unattainable)
+-Pirate and Dread Pirate chests - added % chance to drop mob heads.
+-Fixed: when breaking chests, they do not unlock.  That kinda defeated the purpose of keys.  So even if they blow up, they shouldn't lose their items, but you'll probably die.
+-Fixed: gravestones and bones should no longer be placed on top of each other or on treasure chests or inside of trees.
+-Fixed issue with too many wishing wells generating after the first one is generated.
+-Changed the Skeleton Key texture
+-Added Plans dynamic structure generation system.  Moves from hard-coded structures to json file driven structures.
+-Added 4 new chamber plans
+-Added 2 new wishing well plans
+-Added 4 new ship plans
+-Finished journals for Blockbeard, Captain Steve Stackham, Captain Edder Mann, Herobrine, ...
+
+Version 1.1
+----------------
+-Fixed Sunken ship from not spawning.

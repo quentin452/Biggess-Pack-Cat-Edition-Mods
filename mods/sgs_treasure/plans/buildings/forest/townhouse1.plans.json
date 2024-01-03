@@ -1,0 +1,1817 @@
+{
+  "meta" : {
+    "name" : "Medieval Townhouse 1.",
+    "creator" : "Claymore242. http://www.minecraft-schematics.com/schematic/4657/",
+    "createDate" : "Sat Jan 03 15:31:19 EST 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "comments" : "Modified by gottsch",
+    "version" : "2.0"
+  },
+  "height" : 10,
+  "depth" : 11,
+  "width" : 9,
+  "preservePlansAir" : true,
+  "substituteWithAir" : [ ],
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : -1,
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 3,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 2,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 4,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 13,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 5,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 109,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 67,
+      "blockName" : "",
+      "metaId" : 2,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 67,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "9" : {
+      "ruleId" : 9,
+      "blockId" : 1,
+      "blockName" : "",
+      "metaId" : 6,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "10" : {
+      "ruleId" : 10,
+      "blockId" : 98,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "11" : {
+      "ruleId" : 11,
+      "blockId" : 67,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "12" : {
+      "ruleId" : 12,
+      "blockId" : 135,
+      "blockName" : "",
+      "metaId" : 3,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "13" : {
+      "ruleId" : 13,
+      "blockId" : 135,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "14" : {
+      "ruleId" : 14,
+      "blockId" : 85,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "15" : {
+      "ruleId" : 15,
+      "blockId" : 64,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "17" : {
+      "ruleId" : 17,
+      "blockId" : 58,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "16" : {
+      "ruleId" : 16,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 2,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "19" : {
+      "ruleId" : 19,
+      "blockId" : 102,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "18" : {
+      "ruleId" : 18,
+      "blockId" : 67,
+      "blockName" : "",
+      "metaId" : 3,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "21" : {
+      "ruleId" : 21,
+      "blockId" : 64,
+      "blockName" : "",
+      "metaId" : 8,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "20" : {
+      "ruleId" : 20,
+      "blockId" : 171,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "23" : {
+      "ruleId" : 23,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "22" : {
+      "ruleId" : 22,
+      "blockId" : 50,
+      "blockName" : "",
+      "metaId" : 2,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "25" : {
+      "ruleId" : 25,
+      "blockId" : 109,
+      "blockName" : "",
+      "metaId" : 6,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "24" : {
+      "ruleId" : 24,
+      "blockId" : 126,
+      "blockName" : "",
+      "metaId" : 8,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "27" : {
+      "ruleId" : 27,
+      "blockId" : 109,
+      "blockName" : "",
+      "metaId" : 5,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "26" : {
+      "ruleId" : 26,
+      "blockId" : 109,
+      "blockName" : "",
+      "metaId" : 4,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "29" : {
+      "ruleId" : 29,
+      "blockId" : 126,
+      "blockName" : "",
+      "metaId" : 9,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "28" : {
+      "ruleId" : 28,
+      "blockId" : 109,
+      "blockName" : "",
+      "metaId" : 7,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "31" : {
+      "ruleId" : 31,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 6,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "30" : {
+      "ruleId" : 30,
+      "blockId" : 17,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "34" : {
+      "ruleId" : 34,
+      "blockId" : 116,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "35" : {
+      "ruleId" : 35,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 4,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "32" : {
+      "ruleId" : 32,
+      "blockId" : 54,
+      "blockName" : "",
+      "metaId" : 5,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "33" : {
+      "ruleId" : 33,
+      "blockId" : 171,
+      "blockName" : "",
+      "metaId" : 13,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "38" : {
+      "ruleId" : 38,
+      "blockId" : 47,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "39" : {
+      "ruleId" : 39,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 5,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "36" : {
+      "ruleId" : 36,
+      "blockId" : 26,
+      "blockName" : "",
+      "metaId" : 9,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "37" : {
+      "ruleId" : 37,
+      "blockId" : 26,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "42" : {
+      "ruleId" : 42,
+      "blockId" : 126,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "43" : {
+      "ruleId" : 43,
+      "blockId" : 5,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "40" : {
+      "ruleId" : 40,
+      "blockId" : 52,
+      "blockName" : "mob_spawner",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : ["Skeleton", "Zombie"]
+    },
+    "41" : {
+      "ruleId" : 41,
+      "blockId" : 53,
+      "blockName" : "",
+      "metaId" : 7,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "46" : {
+      "ruleId" : 46,
+      "blockId" : 50,
+      "blockName" : "",
+      "metaId" : 3,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "47" : {
+      "ruleId" : 47,
+      "blockId" : 134,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "44" : {
+      "ruleId" : 44,
+      "blockId" : 125,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "45" : {
+      "ruleId" : 45,
+      "blockId" : 50,
+      "blockName" : "",
+      "metaId" : 4,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    },
+    "48" : {
+      "ruleId" : 48,
+      "blockId" : 134,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      
+      "spawns" : [ ]
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      [
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        1,
+        1,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        3,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        4,
+        3,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        5,
+        5,
+        5,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        5,
+        5,
+        5,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        5,
+        5,
+        5,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        6,
+        5,
+        5,
+        5,
+        5,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        3,
+        5,
+        5,
+        5,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        9,
+        10,
+        10,
+        10,
+        9,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        12,
+        12,
+        13,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        14,
+        13,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        9,
+        0,
+        0,
+        0,
+        9,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        16,
+        5,
+        17,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        9,
+        10,
+        10,
+        10,
+        9,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        18,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        10,
+        19,
+        10,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        19,
+        0,
+        20,
+        0,
+        19,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        19,
+        0,
+        0
+      ],
+      [
+        0,
+        22,
+        10,
+        0,
+        23,
+        24,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        10,
+        10,
+        10,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        9,
+        10,
+        10,
+        10,
+        9,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        24,
+        24,
+        24,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        24,
+        24,
+        24,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        9,
+        24,
+        24,
+        24,
+        9,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        24,
+        24,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        23,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        9,
+        10,
+        10,
+        10,
+        9,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        28,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29
+      ],
+      [
+        29,
+        0,
+        30,
+        31,
+        31,
+        31,
+        30,
+        0,
+        29
+      ],
+      [
+        29,
+        30,
+        5,
+        32,
+        33,
+        34,
+        5,
+        30,
+        29
+      ],
+      [
+        29,
+        35,
+        36,
+        37,
+        33,
+        33,
+        38,
+        39,
+        29
+      ],
+      [
+        29,
+        35,
+        36,
+        37,
+        33,
+        33,
+        38,
+        39,
+        29
+      ],
+      [
+        29,
+        30,
+        5,
+        5,
+        33,
+        33,
+        5,
+        30,
+        29
+      ],
+      [
+        29,
+        35,
+        40,
+        0,
+        33,
+        33,
+        33,
+        39,
+        29
+      ],
+      [
+        29,
+        35,
+        0,
+        0,
+        0,
+        0,
+        33,
+        39,
+        29
+      ],
+      [
+        29,
+        30,
+        5,
+        0,
+        33,
+        0,
+        5,
+        30,
+        29
+      ],
+      [
+        29,
+        0,
+        30,
+        41,
+        41,
+        41,
+        30,
+        0,
+        29
+      ],
+      [
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29
+      ]
+    ],
+    [
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        43,
+        5,
+        19,
+        5,
+        44,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        44,
+        0,
+        0,
+        0,
+        44,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        44,
+        5,
+        0,
+        0,
+        44,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        44,
+        0,
+        0,
+        0,
+        43,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        43,
+        5,
+        19,
+        5,
+        43,
+        42,
+        0
+      ],
+      [
+        0,
+        42,
+        29,
+        0,
+        0,
+        0,
+        29,
+        42,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        5,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        41,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        31,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        5,
+        48,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        48,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "topConnectorCoords" : null,
+  "bottomConnectorCoords" : null,
+  "northConnectorCoords" : null,
+  "southConnectorCoords" : null,
+  "westConnectorCoords" : null,
+  "eastConnectorCoords" : null,
+  "treasureChestCoords" : {
+    "x" : 3,
+    "y" : 6,
+    "z" : 2
+  },
+  "spawnerCoords" : [
+    {
+      "x" : 2,
+      "y" : 6,
+      "z" : 6
+    }
+  ],
+  "unique" : false
+}

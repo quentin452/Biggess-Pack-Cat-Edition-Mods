@@ -1,0 +1,501 @@
+{
+  "meta" : {
+	"creator" : "gottsch",
+    "createDate" : "Wed Apr 29 16:14:27 EDT 2015",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "version" : "3.0"
+  },
+  "height" : 6,
+  "depth" : 4,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcessBlocks" : [
+    "torch",
+    "lever",
+    "stone_button",
+    "wooden_button"
+  ],
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "air",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "bedrock",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 48,
+      "blockName" : "mossy_cobblestone",
+      "metaId" : 0,
+      "probability" : 75,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 3,
+      "blockName" : "dirt",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "null_block",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 2,
+      "blockName" : "grass",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 1,
+      "blockName" : "stone",
+      "metaId" : 0,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteName" : "null_block",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 4,
+      "blockName" : "cobblestone",
+      "metaId" : 0,
+      "probability" : 10,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "7" : {
+      "ruleId" : 7,
+      "blockId" : 30,
+      "blockName" : "web",
+      "metaId" : 0,
+      "probability" : 10,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "8" : {
+      "ruleId" : 8,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 0,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "9" : {
+      "ruleId" : 9,
+      "blockId" : 31,
+      "blockName" : "tallgrass",
+      "metaId" : 1,
+      "probability" : 40,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "10" : {
+      "ruleId" : 10,
+      "blockId" : 10,
+      "blockName" : "gravel",
+      "metaId" : 0,
+      "probability" : 10,
+      "useProbabilitySub" : true,
+      "probabilitySubName" : "air",
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : true,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "11" : {
+      "ruleId" : 11,
+      "blockId" : 17,
+      "blockName" : "log",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "probabilityMeta" : 0,
+      "substituteId" : -1,
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : false,
+      "worldBlockMeta" : 0
+    },
+    "12" : {
+      "ruleId" : 12,
+      "blockId" : 35,
+      "blockName" : "wool",
+      "metaId" : 4,
+      "probability" : 100,
+      "useProbabilitySub" : false,
+      "substituteId" : -1,
+      "substituteName" : "sandstone",
+      "substituteMeta" : 0,
+      "inventoryId" : -1,
+      "requiresSupport" : false,
+      "useWorldBlockCondition" : true,
+      "worldBlockName" : "sand",
+      "worldBlockMeta" : 0
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        2,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        5,
+        0,
+        6,
+        7,
+        5
+      ],
+      [
+        8,
+        7,
+        0,
+        9,
+        8
+      ],
+      [
+        5,
+        6,
+        0,
+        10,
+        5
+      ],
+      [
+        5,
+        9,
+        0,
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    ],
+    [
+      [
+        5,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        8,
+        0,
+        0,
+        7,
+        8
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        5,
+        5,
+        0,
+        5,
+        5
+      ],
+      [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      [
+        5,
+        5,
+        0,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        0,
+        5,
+        5
+      ]
+    ],
+    [
+      [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    ]
+  ],
+  "resources" : [
+    {
+      "id" : 3,
+      "name" : "dirt",
+      "quantity" : 1
+    },
+    {
+      "id" : 2,
+      "name" : "grass",
+      "quantity" : 1
+    },
+    {
+      "id" : 48,
+      "name" : "mossy_cobblestone",
+      "quantity" : 10
+    },
+    {
+      "id" : 1,
+      "name" : "stone",
+      "quantity" : 24
+    },
+    {
+      "id" : 0,
+      "name" : "air",
+      "quantity" : 35
+    },
+    {
+      "id" : 30,
+      "name" : "web",
+      "quantity" : 5
+    },
+    {
+      "id" : 7,
+      "name" : "bedrock",
+      "quantity" : 8
+    },
+    {
+      "id" : 31,
+      "name" : "tallgrass",
+      "quantity" : 2
+    },
+    {
+      "id" : 4,
+      "name" : "cobblestone",
+      "quantity" : 2
+    },
+    {
+      "id" : 35,
+      "name" : "wool",
+      "quantity" : 20
+    },
+    {
+      "id" : 17,
+      "name" : "log",
+      "quantity" : 11
+    },
+    {
+      "id" : 13,
+      "name" : "gravel",
+      "quantity" : 1
+    }
+  ],
+  "northConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 0
+  },
+  "southConnectorCoords" : {
+    "x" : 2,
+    "y" : 2,
+    "z" : 3
+  },
+  "westConnectorCoords" : {
+    "x" : 0,
+    "y" : 2,
+    "z" : 2
+  },
+  "eastConnectorCoords" : {
+    "x" : 4,
+    "y" : 2,
+    "z" : 2
+  },
+  "unique" : false
+}

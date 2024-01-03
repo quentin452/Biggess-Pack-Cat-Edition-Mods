@@ -1,0 +1,92 @@
+#blocks
+##chests
+tile.sgs_treasure_wooden_chest.name=Cassa Di Legno
+tile.sgs_treasure_locked_wooden_chest.name=Cassa Di Legno Bloccata
+tile.sgs_treasure_iron_chest.name=Cassa Rinforzata In Ferro
+tile.sgs_treasure_pirate_chest.name=Cassa Del Pirata
+tile.sgs_treasure_dread_pirate_chest.name=Cassa Del Pirata Feroce
+tile.sgs_treasure_wishing_well_block.name=Pozzo Dei Desideri
+
+tile.testProxyTestBlock.name=Cassa Di Prova
+
+#v2+ blocks
+tile.painting1x1.name=Dipinto Depredato Piccolo
+tile.painting2x1.name=Dipinto Depredato Medio
+tile.gold_brick_block.name=Mattone D'Oro
+tile.wither_log.name=Tronco Di Wither
+tile.wither_log_spawner.name=Tronco Di Spawn Di Wither
+tile.wither_chest.name=Cassa Di Wither
+tile.obsidian_chest.name=Cassa Di Ossidiana
+
+##markers
+tile.sgs_treasure_gravestone1.name=Tomba
+tile.sgs_treasure_gravestone2.name=Lapide Di Pirata
+tile.sgs_treasure_gravestone3.name=Lapide
+tile.sgs_treasure_skull_and_crossbones.name=Teschio E Tibie
+tile.skeleton.name=Scheletro
+
+# item names
+item.sgs_treasure_iron_key.name=Chiave Di Ferro
+item.sgs_treasure_gold_key.name=Chiave D'Oro
+item.sgs_treasure_pirate_key.name=Chiave Di Pirata
+item.sgs_treasure_skeleton_key.name=Chiave Di Scheletro
+item.sgs_treasure_skull_sword.name=Spada Di Teschio Di Pirata
+item.gold_coin.name=Moneta D'Oro
+item.silver_coin.name=Moneta D'Argento
+item.sgs_treasure_skull_sword.name=Spada Di Teschio
+item.sgs_treasure_golden_chalice.name=Calice D'Oro
+item.sgs_treasure_golden_chalice_water.name=Calice D'Oro Riempito D'Acqua
+item.sgs_treasure_golden_chalice_lava.name=Calice D'Oro Riempito Di Lava
+item.sgs_treasure_golden_chalice_ambrosia.name=Calice D'Oro Riempito Di Ambrosia
+
+item.skeleton_item.name=Scheletro
+item.painting_item_1x1.name=Dipinto Depredato Piccolo
+item.painting_item_2x1.name=Dipinto Depredato Medio
+item.wither_stick_item.name=Bastone Di Wither
+item.wither_root_item.name=Radice Di Wither
+item.wither_key.name=Chiave Di Wither
+item.eye_patch.name=Benda
+item.obsidian_key.name=Chiave Di Ossidiana
+item.chest_breaker.name=Mazza Distruggi-Cassa
+
+# item-block names
+
+#itemGroup
+itemGroup.treasure_tab=Tesoro!
+
+#entity names
+
+#tool tips
+entity.SkeletonWarrior.name=Scheletro Guerriero
+entity.skeleton_warrior.name=Scheletro Guerriero
+entity.hermit.name=Eremita
+
+#containers (can have a max of 32 character in the label or name)
+##default
+display.sgs_treasure_chest=Cassa
+
+##wooden
+display.sgs_treasure_wc=Cassa Di Legno
+display.sgs_treasure_lwc=Cassa Di Legno Bloccata
+
+##iron
+display.sgs_treasure_ic=Cassa Rinforzata In Ferro
+
+## pirate
+display.sgs_treasure_pc=Cassa Del Pirata
+
+## dread pirate
+display.sgs_treasure_dpc=Cassa Del Pirata Feroce
+
+## wither chest
+display.sgs_treasure_wthc=Cassa Di Wither
+
+## obsidian chest
+display.sgs_treasure_oc=Cassa Di Ossidiana
+
+# string resources
+tooltip.yes=Si
+tooltip.no=No
+tooltip.label.breakable=Breakable: %s
+tooltip.label.key_cuts=Key Cuts: %s
+tooltip.label.chest_breaker=Usa Questo Per Distruggere Definitivamente Una Cassa Non Bloccata

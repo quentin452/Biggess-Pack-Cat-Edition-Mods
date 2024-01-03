@@ -1,0 +1,87 @@
+#blocks
+##chests
+tile.sgs_treasure_wooden_chest.name=Tahta Sandýk
+tile.sgs_treasure_locked_wooden_chest.name=Kilitli Tahta Sandýk
+tile.sgs_treasure_iron_chest.name=Saðlam Sandýk
+tile.sgs_treasure_pirate_chest.name=Korsan Sandýðý
+tile.sgs_treasure_dread_pirate_chest.name=Acýmasiz Korsanýn Sandýðý
+tile.sgs_treasure_wishing_well_block.name=Dilek Kuyusu Blok’u
+
+tile.testProxyTestBlock.name=Test Chest
+
+#v2+ blocks
+tile.painting1x1.name=Küçük Ýlginç Resim
+tile.painting2x1.name=Orta Boy Ýlginç Resim
+tile.gold_brick_block.name=Altýn Tuðla
+tile.wither_log.name=Wither Odunu
+tile.wither_log_spawner.name=Wither Çaðýrýcý Odun
+tile.wither_chest.name=Wither Sandýðý
+tile.obsidian_chest.name=Obsidyen Sandýk
+##markers
+tile.sgs_treasure_gravestone1.name=Mezar Taþý
+tile.sgs_treasure_gravestone2.name=Korsanýn Mezartaþý
+tile.sgs_treasure_gravestone3.name=Mezartaþý
+tile.sgs_treasure_skull_and_crossbones.name=Kafatasý ve Kemikler
+tile.skeleton.name=Ýskelet
+
+# item names
+item.sgs_treasure_iron_key.name=Demir Anahtar
+item.sgs_treasure_gold_key.name=Altýn Anahtar
+item.sgs_treasure_pirate_key.name=Korsan Anahtarý item.sgs_treasure_skeleton_key.name=Ýskelet Anahatar
+item.sgs_treasure_skull_sword.name=Korsan Ýskeleti Kýlýcý
+item.gold_coin.name=Altýn Sikke
+item.silver_coin.name=Gümüþ Sikke
+item.sgs_treasure_skull_sword.name=Ýskelet Kýlýcý
+item.sgs_treasure_golden_chalice.name=Altýn Kadeh 
+item.sgs_treasure_golden_chalice_water.name=Su Dolu Altýn Kadeh
+item.sgs_treasure_golden_chalice_lava.name=Lav Dolu Altýn Kadeh
+item.sgs_treasure_golden_chalice_ambrosia.name=Sonsuz Hayat Ýçeceði
+
+item.skeleton_item.name=Ýskelet
+item.painting_item_1x1.name=Küçük Ýlginç Resim
+item.painting_item_2x1.name=Orta Boy Ýlginç Resim 
+item.wither_stick_item.name=Wither Çubuðu
+item.wither_root_item.name=Wither Kökü
+item.wither_key.name=Wither Anahtarý
+item.eye_patch.name=Göz Bandý
+item.obsidian_key.name=Obsidyen Anahatar
+
+# item-block names
+
+#itemGroup
+itemGroup.treasure_tab=Treasure!
+
+#entity names
+
+#tool tips
+entity.SkeletonWarrior.name=Ýskelet Savaþçý
+entity.skeleton_warrior.name=Ýskelet Savaþçý 
+entity.hermit.name=Hermit
+
+#containers (can have a max of 32 character in the label or name)
+##default
+display.sgs_treasure_chest=Chest
+
+##wooden
+display.sgs_treasure_wc=Tahata Sandýk
+display.sgs_treasure_lwc=Kilitli Tahta Sandýk
+##iron
+display.sgs_treasure_ic=Dayanýklý Sandýk
+
+## pirate
+display.sgs_treasure_pc=Korsanýn Sandýðý
+
+## dread pirate
+display.sgs_treasure_dpc=Acýmasýz Korsanýn Sandýðý
+## wither chest
+display.sgs_treasure_wthc=Wither Sandýðý
+
+## obsidian chest
+display.sgs_treasure_oc=Obsidyen Sandýk
+
+# string resources
+tooltip.yes=Yes
+tooltip.no=No
+tooltip.label.breakable=Breakable: %s
+tooltip.label.key_cuts=Key Cuts: %s
+tooltip.label.chest_breaker=Use this to permanently destroy an unlocked chest.

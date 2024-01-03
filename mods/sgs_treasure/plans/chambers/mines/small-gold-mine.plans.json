@@ -1,0 +1,301 @@
+{
+  "meta" : {
+    "name" : "",
+    "creator" : "gottsch",
+    "createDate" : "Thu Dec 04 10:29:04 EST 2014",
+    "plansClass" : "com.someguyssoftware.plans.ConnectorPlans",
+    "comments" : "",
+    "version" : "2.0"
+  },
+  "height" : 5,
+  "depth" : 5,
+  "width" : 5,
+  "preservePlansAir" : true,
+  "substituteWithAir" : [ ],
+  "preserveWorldWater" : false,
+  "preserveWorldLava" : false,
+  "preserveWorldPlants" : false,
+  "verticalOffset" : 0,
+  "postProcess" : [
+    50,
+    69,
+    77,
+    143
+  ],
+  "rules" : {
+    "0" : {
+      "ruleId" : 0,
+      "blockId" : 0,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "1" : {
+      "ruleId" : 1,
+      "blockId" : 7,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1000,
+      "substituteName" : "null_block",
+      "spawns" : [ ]
+    },
+    "2" : {
+      "ruleId" : 2,
+      "blockId" : 15,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : 14,
+      "substituteName" : "gold_ore",
+      "spawns" : [ ]
+    },
+    "3" : {
+      "ruleId" : 3,
+      "blockId" : 66,
+      "blockName" : "",
+      "metaId" : 6,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "4" : {
+      "ruleId" : 4,
+      "blockId" : 66,
+      "blockName" : "",
+      "metaId" : 1,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "5" : {
+      "ruleId" : 5,
+      "blockId" : 66,
+      "blockName" : "",
+      "metaId" : 0,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    },
+    "6" : {
+      "ruleId" : 6,
+      "blockId" : 54,
+      "blockName" : "",
+      "metaId" : 2,
+      "probability" : 100,
+      "substituteId" : -1,
+      "substituteName" : "",
+      "spawns" : [ ]
+    }
+  },
+  "blockMap" : [
+    [
+      [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        4,
+        4,
+        0
+      ],
+      [
+        1,
+        5,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        5,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        5,
+        6,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  ],
+  "topConnectorCoords" : {
+    "x" : 2,
+    "y" : 4,
+    "z" : 0
+  },
+  "bottomConnectorCoords" : null,
+  "northConnectorCoords" : null,
+  "southConnectorCoords" : null,
+  "westConnectorCoords" : null,
+  "eastConnectorCoords" : null,
+  "treasureChestCoords" : {
+    "x" : 2,
+    "y" : 1,
+    "z" : 3
+  },
+  "spawnerCoords" : [ ],
+  "unique" : false
+}

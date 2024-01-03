@@ -1,0 +1,92 @@
+#blocks
+##chests
+tile.sgs_treasure_wooden_chest.name=Coffre en Bois
+tile.sgs_treasure_locked_wooden_chest.name=Coffre en Bois Clos
+tile.sgs_treasure_iron_chest.name=Coffre en Fer
+tile.sgs_treasure_pirate_chest.name=Coffre de Pirate
+tile.sgs_treasure_dread_pirate_chest.name=Coffre du Redoutable Pirate
+tile.sgs_treasure_wishing_well_block.name=Roche Puits aux souhaits
+
+tile.testProxyTestBlock.name=Coffre Test
+
+#v2+ blocks
+tile.painting1x1.name=Petite Peinture
+tile.painting2x1.name=Moyenne Peinture
+tile.gold_brick_block.name=Brique en Or
+tile.wither_log.name=Buche de Wither
+tile.wither_log_spawner.name=Buche Spawner de Wither
+tile.wither_chest.name=Coffre du Wither
+tile.obsidian_chest.name=Coffre en Obsidian
+
+##markers
+tile.sgs_treasure_gravestone1.name=Pierre Tombale
+tile.sgs_treasure_gravestone2.name=Pierre Tombale de Pirate
+tile.sgs_treasure_gravestone3.name=Pierre Tombale X
+tile.sgs_treasure_skull_and_crossbones.name=Ossements
+tile.skeleton.name=Squelette
+
+# item names
+item.sgs_treasure_iron_key.name=Clef en Fer
+item.sgs_treasure_gold_key.name=Clef en Or
+item.sgs_treasure_pirate_key.name=Clef de Pirate
+item.sgs_treasure_skeleton_key.name=Clef de Squelette
+item.sgs_treasure_skull_sword.name=Sabre Crane de Pirate
+item.gold_coin.name=Denier en Or
+item.silver_coin.name=Denier en Argent
+item.sgs_treasure_skull_sword.name=Sabre Tete de Mort
+item.sgs_treasure_golden_chalice.name=Calice d'Or
+item.sgs_treasure_golden_chalice_water.name=Calice d'Or rempli d'Eau
+item.sgs_treasure_golden_chalice_lava.name=Calice d'Or rempli de Lave
+item.sgs_treasure_golden_chalice_ambrosia.name=Calice d'Or rempli d'Ambrosia
+
+item.skeleton_item.name=Squelette
+item.painting_item_1x1.name=Petite Peinture
+item.painting_item_2x1.name=Moyenne Peinture
+item.wither_stick_item.name=Baton de Wither
+item.wither_root_item.name=Racine de Wither
+item.wither_key.name=Clef de Wither
+item.eye_patch.name=Cache-Oeil
+item.obsidian_key.name=Clef d'Obsidian
+item.chest_breaker.name=Massue Brisseuse de Coffre 
+
+# item-block names
+
+#itemGroup
+itemGroup.treasure_tab=Tresor!
+
+#entity names
+
+#tool tips
+entity.SkeletonWarrior.name=Guerrier Squelette
+entity.skeleton_warrior.name=Guerrier Squelette
+entity.hermit.name=Ermite
+
+#containers (can have a max of 32 character in the label or name)
+##default
+display.sgs_treasure_chest=Coffre
+
+##wooden
+display.sgs_treasure_wc=Coffre en Bois
+display.sgs_treasure_lwc=Coffre en Bois Clos
+
+##iron
+display.sgs_treasure_ic=Coffre en Fer
+
+## pirate
+display.sgs_treasure_pc=Coffre de Pirate
+
+## dread pirate
+display.sgs_treasure_dpc=Coffre du Redoutable Pirate
+
+## wither chest
+display.sgs_treasure_wthc=Coffre de Wither
+
+## obsidian chest
+display.sgs_treasure_oc=Coffre d'Obsidian
+
+# string resources
+tooltip.yes=Oui
+tooltip.no=Non
+tooltip.label.breakable=Cassable: %s
+tooltip.label.key_cuts=Clef Crantee: %s
+tooltip.label.chest_breaker=Utilisez cette option pour détruire définitivement un coffre déverrouillé.
