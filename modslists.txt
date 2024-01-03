@@ -40,3 +40,4 @@
 * Treasure-3.0.8-mc1.7.10 
 * WackyWeapons_1.3 
 * wall_clock_mod_1.7.10 
+* cooler-1.7.10-1.1.5.1β
