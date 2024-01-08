@@ -22,7 +22,6 @@
 * landmines_1.1 
 * Mankini_1.7.10_1.2.1 
 * Material_Creepers_Mod_1.7.10 
-* mo_skeletons_mod_1.7.10 
 * moarcarts-1.7.10-1.2.4-11 
 * more_pickaxes_mod_1.7.10 
 * MoreTorches 
